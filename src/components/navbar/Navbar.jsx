@@ -26,12 +26,11 @@ const Navbar = () => {
           <Search className='icon' />
           <span>Kid</span>
           <Notifications className='icon' />
-
+          <img
+            src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg'
+            alt=''
+          />
           <div className='profile'>
-            <img
-              src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg'
-              alt=''
-            />
             <ArrowDropDown className='icon arrow' />
             <div className='options'>
               <span>Settings</span>
